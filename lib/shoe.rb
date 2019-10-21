@@ -4,7 +4,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
-    if BRANDS.none?("#{brand}") BRANDS << brand
+    if BRANDS.none?("#{brand}") puts BRANDS << brand
   end
 
   def cobble
